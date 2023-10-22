@@ -18,7 +18,7 @@ def get_user(id):
 users = [user for id in user_ids if (user := get_user(id)) is not None]
 print(json.dumps(users, indent=2))
 
-openai_api_key = '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'
+openai_api_key = 'chavedaapi'
 
 import openai
 
